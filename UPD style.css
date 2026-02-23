@@ -118,12 +118,12 @@ h2 {
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     gap: 6px;
 
     word-break: break-all;       /* Prevent cutting on mobile */
     overflow-wrap: anywhere;
-    text-align: center;
+    text-align: left;
 }
 
 .movie-links a img {
@@ -156,4 +156,11 @@ h2 {
     .movie-links a {
         font-size: 0.85rem;
     }
+}
+/* Alignment of movie link*/
+.movie-links a img.youtube-logo {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 6px;
 }
